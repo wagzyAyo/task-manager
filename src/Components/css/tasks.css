@@ -1,0 +1,105 @@
+.container {
+    display: grid;
+    justify-content: center;
+    font-family: 'inter';
+    gap: 15px;
+    place-items: center;
+}
+
+.header {
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.text-area input {
+    width: 400px;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.primary-btn {
+    width: 99.5px;
+    height: 31px;
+    border-radius: 15px;
+    background: #4F6FE3;
+    color: #ffffff;
+    border: none;
+    left: 299.75px;
+    cursor: pointer;
+}
+
+.container-2 {
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    position: relative;
+
+}
+
+.Todos {
+    align-items: center;
+}
+
+.Todos h3 {
+    place-items: center;
+
+}
+
+.todo-element {
+    gap: 20px;
+    padding: 3px;
+
+}
+
+.gap2 {
+    display: flex;
+    margin: 20px;
+    overflow-wrap: break-word;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.Todo-lists {
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.danger-btn {
+    color: red;
+    background-color: none;
+    border: 1px solid red;
+    cursor: pointer;
+    padding: 0, 5px;
+    max-width: 7em;
+    max-height: 1.5em;
+}
+
+.center-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.border-btn {
+    width: 111px;
+    height: 31px;
+    border-radius: 15px;
+    left: 294px;
+    background: none;
+    border: 1px solid #4F6FE3;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
