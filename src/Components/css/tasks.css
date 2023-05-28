@@ -19,9 +19,9 @@
 }
 
 .text-area input {
-    width: 400px;
+    width: 300px;
     border-radius: 3px;
-    padding: 10px;
+    padding: 8px;
     font-size: 15px;
 }
 
@@ -102,4 +102,10 @@
     cursor: pointer;
     margin-top: 20px;
 
+}
+
+@media (max-width: 470px) {
+    .Todos h3 {
+        font-size: 20px;
+    }
 }
